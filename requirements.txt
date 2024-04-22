@@ -1,7 +1,6 @@
 altair==5.3.0
 attrs==23.2.0
 blinker==1.7.0
-Bottleneck @ file:///C:/b/abs_f05kqh7yvj/croot/bottleneck_1707864273291/work
 cachetools==5.3.3
 certifi==2024.2.2
 charset-normalizer==3.3.2
