@@ -186,14 +186,14 @@ class PensionData():
 def read_pensiondata():
     # data = PensionData('national-pension.csv')
     # data = PensionData('http://naver.me/xKzwICOy')
-    data = PensionData('https://www.dropbox.com/s/nxeo1tziv05ejz7/national-pension.csv?dl=1')
+    # data = PensionData('https://www.dropbox.com/s/nxeo1tziv05ejz7/national-pension.csv?dl=1')
     # 테디것은 되고
     
     # data = PensionData('https://drive.google.com/file/d/1z6kIeAYeV9TJmY0-dZ8A-BUBI2Em3j0P/view?usp=sharing')
     # 구글드라이브 안되고
     
     
-    # data = PensionData('https://www.dropbox.com/scl/fi/iobpu4h4yzduy5o1bliva/national-pension.csv?rlkey=rmnrikkz7evb74tve2ok1khh3&st=bme81i74&dl=0')
+    data = PensionData('https://www.dropbox.com/scl/fi/iobpu4h4yzduy5o1bliva/national-pension.csv?rlkey=rmnrikkz7evb74tve2ok1khh3&st=bme81i74&dl=0')
     # dropbox 내껀 안됨
     return data
 
@@ -211,7 +211,7 @@ def read_pensiondata():
 
 # 입력창부분
 data = read_pensiondata()
-company_name = st.text_input('회사명을 입력해 주세요', placeholder='검색할 회사명 입력')
+company_name = st.text_input('회사명을 입력해 주세요!!', placeholder='검색할 회사명 입력')
 # 사용자로부터 회사명을 입력 받고, 입력된 회사명을 사용하여 read_pensiondata() 함수를 호출하여 데이터를 가져온다. 
 # 이렇게 하면 사용자는 입력한 회사명에 해당하는 데이터를 검색할 수 있다.
 
